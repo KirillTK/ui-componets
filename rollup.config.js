@@ -1,9 +1,9 @@
 import resolve from 'rollup-plugin-node-resolve';
 import typescript from 'rollup-plugin-typescript'
 import sass from 'rollup-plugin-sass';
-import postcss from 'rollup-plugin-postcss';
-import postcssModules from 'postcss-modules';
 import babel from 'rollup-plugin-babel';
+
+const isProduction = process.env.NODE_ENV === 'production';
 
 export default {
   input: 'src/index.ts',
