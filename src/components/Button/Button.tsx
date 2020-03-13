@@ -3,4 +3,6 @@ import { getText } from './helper';
 import './Button.scss';
 
 
-export const Button = () => <button className="button-new">{getText()}</button>;
+const Button = () => <button className="button-new">{getText()}</button>;
+
+export default Button;
