@@ -7,7 +7,7 @@
     "serve": "webpack-dev-server --mode development --open --hot --https",
     "build": "webpack --mode production"
   },
-  "repository": "http://openbank-ci.cherashev.com/frontend/open-ui-kit.git",
+  "repository": "https://github.com/KirillTK/ui-componets.git",
   "author": "",
   "license": "ISC",
   "dependencies": {
