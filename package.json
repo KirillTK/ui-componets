@@ -42,7 +42,6 @@
     "postcss-loader": "^3.0.0",
     "rollup": "^2.0.6",
     "rollup-plugin-babel": "^4.4.0",
-    "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-postcss": "^2.4.1",
     "rollup-plugin-sass": "^1.2.2",
