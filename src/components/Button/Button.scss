@@ -1,45 +1,4 @@
-@font-face {
-  font-family: 'Rouble';
-  src: url('./assets/Rouble.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'FSE';
-  src: url('./assets/FSElliotPro.otf') format('truetype');
-}
-
-.button {
+.button-new {
   padding-top: 10px;
-}
-
-body {
-  margin: 10px;
-}
-
-body {
-  margin: 10px;
-}
-
-body {
-  padding-top: 10px;
-}
-
-body {
-  margin: 10px;
-}
-
-body {
-  background: url("./assets/apple-icon-57x57.png");
-}
-
-h1 {
-  font-family: Rouble, serif;
-}
-
-h1 {
-  font-family: FSE, serif;
-}
-
-div {
-  background: url("./assets/icon-edit.svg");
+  color: red;
 }

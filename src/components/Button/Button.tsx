@@ -3,4 +3,4 @@ import { getText } from './helper';
 import './Button.scss';
 
 
-export const Button = () => <button>{getText()}</button>;
+export const Button = () => <button className="button-new">{getText()}</button>;
