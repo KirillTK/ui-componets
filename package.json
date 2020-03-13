@@ -2,8 +2,8 @@
   "name": "new-ui-kit",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
-  "style": "dist/styles.css",
+  "main": "dist/bundle.js",
+  "style": "dist/bundle.css",
   "scripts": {
     "serve": "webpack-dev-server --mode development --open --hot --https",
     "build": "webpack --mode production",
