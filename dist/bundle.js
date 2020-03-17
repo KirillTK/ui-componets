@@ -1,13 +1,1 @@
-'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
-
-var React = _interopDefault(require('react'));
-
-var getText = function () { return 'Test'; };
-
-var Button = function () { return React.createElement("button", { className: "button-new" }, getText()); };
-
-exports.Button = Button;
+"use strict";function _interopDefault(t){return t&&"object"==typeof t&&"default"in t?t.default:t}Object.defineProperty(exports,"__esModule",{value:!0});var React=_interopDefault(require("react")),getText=function(){return"Test"},Button=function(){return React.createElement("button",{className:"button-new"},getText())};exports.Button=Button;
